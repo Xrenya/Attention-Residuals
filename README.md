@@ -21,6 +21,7 @@ import torch
 
 from attn_res import FullAttnResStack, BlockAttnResStack, build_attn_res
 
+
 x = torch.randn(2, 128, 256) # (batch, seq_len, d_model)
 
 # Full variant
